@@ -1,17 +1,25 @@
 {
   "interactionModel": {
     "languageModel": {
-      "invocationName": "tableboard status",
+      "invocationName": "tableboard",
       "intents": [
         {
-          "name": "TableboardProjectIntent",
+          "name": "ProjectIntent",
           "samples": [
+            "Are you making a project in 2026",
             "Is Tableboard Studios making a project in 2026",
-            "Is Tableboard Studios making project 2026",
-            "Are the Tableboard Studios developers making a cruise ship simulator in 2026",
-            "Is Tableboard Studios testing the cruise ship simulator internally",
+            "Are they making a cruise ship simulator in 2026",
+            "Are they making a project this year"
+          ],
+          "slots": []
+        },
+        {
+          "name": "TestingIntent",
+          "samples": [
             "Is the project being tested internally",
-            "Is the project being tested"
+            "Is it being tested internally",
+            "Are they testing the project internally",
+            "Is testing happening"
           ],
           "slots": []
         },
