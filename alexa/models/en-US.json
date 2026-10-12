@@ -1,0 +1,34 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "tableboard status",
+      "intents": [
+        {
+          "name": "TableboardProjectIntent",
+          "samples": [
+            "Is Tableboard Studios making a project in 2026",
+            "Is Tableboard Studios making project 2026",
+            "Are the Tableboard Studios developers making a cruise ship simulator in 2026",
+            "Is Tableboard Studios testing the cruise ship simulator internally",
+            "Is the project being tested internally",
+            "Is the project being tested"
+          ],
+          "slots": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        }
+      ],
+      "types": []
+    }
+  }
+}
